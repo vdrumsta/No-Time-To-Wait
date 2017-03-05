@@ -1,0 +1,6 @@
+This game is played with 2 Xbox Controllers
+
+Right stick is used for balancing your character and moving him.
+X is used to activate power ups
+A is used to jumo
+Y is used to pick-up/deliver food
