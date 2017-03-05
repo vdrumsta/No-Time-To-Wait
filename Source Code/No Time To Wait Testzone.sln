@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "No Time To Wait Testzone.CSharp.Plugins", "No Time To Wait Testzone.CSharp.Plugins.csproj", "{AB74E29A-94EC-2BF5-E894-1C60CAECCA95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "No Time To Wait Testzone.CSharp", "No Time To Wait Testzone.CSharp.csproj", "{2DC810FA-F0ED-E4F5-DC0E-FFDEF145F11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "No Time To Wait Testzone.CSharp.Editor", "No Time To Wait Testzone.CSharp.Editor.csproj", "{D8612CB8-7946-79C2-6333-EC43C3727BE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB74E29A-94EC-2BF5-E894-1C60CAECCA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB74E29A-94EC-2BF5-E894-1C60CAECCA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB74E29A-94EC-2BF5-E894-1C60CAECCA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB74E29A-94EC-2BF5-E894-1C60CAECCA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC810FA-F0ED-E4F5-DC0E-FFDEF145F11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC810FA-F0ED-E4F5-DC0E-FFDEF145F11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC810FA-F0ED-E4F5-DC0E-FFDEF145F11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC810FA-F0ED-E4F5-DC0E-FFDEF145F11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8612CB8-7946-79C2-6333-EC43C3727BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8612CB8-7946-79C2-6333-EC43C3727BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8612CB8-7946-79C2-6333-EC43C3727BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8612CB8-7946-79C2-6333-EC43C3727BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
