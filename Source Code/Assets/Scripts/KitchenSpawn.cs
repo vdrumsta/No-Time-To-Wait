@@ -13,6 +13,7 @@ public class KitchenSpawn : MonoBehaviour {
     public float foodDist;
     public bool removeAFood = false;
     public Transform spawnPos;
+    public int kitchenNum = 1;
 
     // Use this for initialization
     void Start () {

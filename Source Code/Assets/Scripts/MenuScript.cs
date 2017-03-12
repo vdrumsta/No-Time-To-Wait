@@ -11,7 +11,7 @@ public class MenuScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown("Jump_P1") || Input.GetButtonDown("Jump_P1") || Input.GetButtonDown("Fire1"))
+		if (Input.GetButtonDown("Jump_P1") || Input.GetButtonDown("Jump_P2") || Input.GetButtonDown("Fire1"))
         {
             Debug.Log("all good");
             Application.LoadLevel("test zone");

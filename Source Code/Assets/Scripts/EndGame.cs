@@ -33,7 +33,7 @@ public class EndGame : MonoBehaviour {
             timeBeforeReset -= Time.deltaTime;
             if (timeBeforeReset <= 0)
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(0);
             }
         }
 	}

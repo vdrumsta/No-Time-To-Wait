@@ -13,12 +13,13 @@ public class ItemSpawner : MonoBehaviour {
     public int currentAmount;
     public GameObject dollarBill;
     public string inputString = "Item_P1";
+    public int playerNum;
 
     private float time = 0.2f;
 
     // Use this for initialization
     void Start () {
-        
+
     }
 	
 	// Update is called once per frame
@@ -31,7 +32,7 @@ public class ItemSpawner : MonoBehaviour {
         if (Input.GetButtonDown(inputString))
         {
             //When hit kitchen take food
-            if (col.gameObject.tag == "Kitchen" && currentAmount < maxAmount)
+            if (col.gameObject.tag == "Kitchen" && currentAmount < maxAmount && playerNum == col.gameObject.GetComponent<KitchenSpawn>().kitchenNum)
             {
                 //Debug.Log("Collision");
                 Object[] subListObjects = Resources.LoadAll("Items", typeof(GameObject));
@@ -54,7 +55,7 @@ public class ItemSpawner : MonoBehaviour {
             }
 
             //When hit table remove food
-            if (col.gameObject.tag == "Table" && col.gameObject.GetComponent<TableActive>().active && currentAmount >= 1)
+            if (col.gameObject.tag == "Table" && col.gameObject.GetComponent<TableActive>().active && currentAmount >= 1 && (col.gameObject.GetComponent<TableActive>().tableType == playerNum || col.gameObject.GetComponent<TableActive>().tableType == 0))
             {
                 Destroy(itemsOnTray[itemsOnTray.Count - 1], time);
                 itemsOnTray.Remove(itemsOnTray[itemsOnTray.Count - 1]);

@@ -11,8 +11,8 @@ public class TableActive : MonoBehaviour {
     public int numberAtTable = 0;
     public int tableType = 0;     //0 = normal, 1 = red, 2 = blue
     public Sprite whiteTable;
-    public Sprite redTable;
     public Sprite blueTable;
+    public Sprite redTable;
 
 
     // Use this for initialization
